@@ -709,7 +709,7 @@
     <div class="hero-meta">
         <div class="meta-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-            Last updated: May 2026
+            Last updated: October 2026
         </div>
         <div class="meta-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
@@ -743,7 +743,7 @@
             <a href="#license"><span class="num">9</span> License &amp; Acceptance</a>
             <a href="#service-scope"><span class="num">10</span> Service Scope</a>
             <a href="#telegram-relation"><span class="num">11</span> Relationship to Telegram</a>
-            <a href="#subscriptions"><span class="num">12</span> Subscriptions</a>
+            <a href="#subscriptions"><span class="num">12</span> Pricing</a>
             <a href="#acceptable-use"><span class="num">13</span> Acceptable Use</a>
             <a href="#availability"><span class="num">14</span> Availability</a>
             <a href="#disclaimer"><span class="num">15</span> Disclaimer</a>
@@ -765,7 +765,7 @@
     </div>
 
     <h3 id="about-policy">1. About This Policy</h3>
-    <p>This Privacy Policy explains how CuffChat handles data when you use the app on Apple Watch. It covers data processed locally by CuffChat and clarifies when data is instead handled by Telegram or Apple as part of providing messaging, purchases, and platform services.</p>
+    <p>This Privacy Policy explains how CuffChat handles data when you use the app on Apple Watch. It covers data processed locally by CuffChat and clarifies when data is instead handled by Telegram or Apple as part of providing messaging and platform services.</p>
 
     <h3 id="data-collected">2. Data We Collect</h3>
     <p>CuffChat interacts with your Telegram account through Telegram's official API (TDLib). All message data flows through Telegram's infrastructure and is governed by <a href="https://telegram.org/privacy" target="_blank" rel="noopener">Telegram's Privacy Policy</a>.</p>
@@ -774,10 +774,10 @@
     <ul>
         <li><strong>Messages &amp; Chat Data</strong> — CuffChat displays message content (text, photos, voice notes, contacts, locations) on your Apple Watch. Message metadata (sender name, timestamp, chat title) may be temporarily cached locally on the watch.</li>
         <li><strong>Photos &amp; Media</strong> — Photos you choose to send from CuffChat are transmitted directly to Telegram's servers. Photos received in Telegram chats are displayed on your Watch and may be temporarily cached locally.</li>
-        <li><strong>Voice Messages</strong> — Voice messages you record and send are transmitted to Telegram's servers via your iPhone's network connection.</li>
-        <li><strong>Contacts</strong> — When you share a contact from CuffChat, the contact information is sent to Telegram. CuffChat may access your Contacts with your permission to allow you to share contact details in Telegram chats.</li>
+        <li><strong>Voice Messages</strong> — Voice messages you record and send are transmitted directly to Telegram's servers through TDLib.</li>
+        <li><strong>Contacts</strong> — When you share a contact from CuffChat, the contact information is sent to Telegram.</li>
         <li><strong>Location</strong> — If you choose to share your location, CuffChat accesses your location data and sends it to Telegram.</li>
-        <li><strong>Subscription &amp; In-App Purchases</strong> — CuffChat uses Apple's In-App Purchase system (StoreKit) for premium subscriptions. Apple handles all payment processing. CuffChat does not collect or store your payment card information. Subscription status is stored locally on your device and in Apple's servers.</li>
+        <li><strong>Payments</strong> — CuffChat is a free app with no subscriptions or in-app purchases, so there are no payments to process and no payment information is collected.</li>
         <li><strong>Device &amp; Usage Data</strong> — CuffChat may temporarily log basic error and crash information for debugging purposes. <strong>CuffChat does not use analytics SDKs, third-party tracking tools, or advertising identifiers for behavioral profiling.</strong></li>
     </ul>
 
@@ -791,17 +791,16 @@
         <li><strong>On-Device Storage</strong> — CuffChat stores minimal data locally on your Apple Watch (chat list cache, message metadata, preferences) using the watch's encrypted storage.</li>
         <li><strong>App Group Storage</strong> — Shared settings between the Watch app and any companion components use Apple's App Group container and the platform security protections provided by your devices and operating systems.</li>
         <li><strong>Telegram Servers</strong> — All messages, media, contacts, and shared content are stored on Telegram's servers. Please review <a href="https://telegram.org/privacy" target="_blank" rel="noopener">Telegram's Privacy Policy</a> for their data practices.</li>
-        <li><strong>Apple Servers</strong> — Subscription and purchase records are managed by Apple per their Privacy Policy.</li>
+        <li><strong>Apple Servers</strong> — App distribution and standard platform services are managed by Apple per their Privacy Policy.</li>
     </ul>
 
     <h3 id="data-deletion">4. Data Retention &amp; Deletion</h3>
     <p><strong>CuffChat Local Data</strong> — Most locally stored CuffChat data is removed when you uninstall the app from your Apple Watch, subject to how watchOS manages app containers, backups, and system logs. You can clear locally cached CuffChat data by removing the app.</p>
     <p><strong>Telegram Data</strong> — All messages and media sent or received through CuffChat remain on Telegram's servers until deleted through the official Telegram app or telegram.org. To delete your Telegram account and all associated data, you must do so through Telegram's own account deletion process.</p>
-    <p><strong>Apple Subscription Data</strong> — To cancel your CuffChat subscription, use the Subscriptions section in your Apple ID account settings (Settings &rarr; <em>Your Name</em> &rarr; Subscriptions) or visit <a href="https://apps.apple.com" target="_blank" rel="noopener">apps.apple.com</a>.</p>
 
     <h3 id="third-party">5. Third-Party Services</h3>
     <p><strong>Telegram</strong> — CuffChat communicates exclusively with Telegram's servers through their official, documented API (TDLib). Your use of Telegram through CuffChat is subject to Telegram's Terms of Service and Privacy Policy. We have no control over, and are not responsible for, Telegram's data collection practices.</p>
-    <p><strong>Apple</strong> — CuffChat uses Apple services for app distribution, Apple Watch notification mirroring, and in-app purchases. Your use of Apple services is governed by Apple's Privacy Policy.</p>
+    <p><strong>Apple</strong> — CuffChat uses Apple services for app distribution and Apple Watch notification mirroring. Your use of Apple services is governed by Apple's Privacy Policy.</p>
 
     <div class="callout callout-warning">
         <div class="callout-label">⚠️ Important</div>
@@ -855,21 +854,14 @@
         CuffChat is an independent project. Telegram may change its API, authentication mechanisms, or platform policies at any time, which could affect CuffChat's functionality. We will endeavor to maintain compatibility but cannot guarantee uninterrupted service.
     </div>
 
-    <h3 id="subscriptions">12. Subscriptions</h3>
-    <p>CuffChat offers <strong>auto-renewable subscriptions</strong> that unlock premium features:</p>
+    <h3 id="subscriptions">12. Pricing</h3>
+    <p>CuffChat is <strong>completely free</strong>. All features are included for every user:</p>
     <ul>
-        <li>Payment is charged to your Apple ID account at the start of each billing period.</li>
-        <li>Subscriptions renew automatically unless canceled at least 24 hours before the end of the current billing period.</li>
-        <li>You can manage or cancel subscriptions at any time in your Apple ID subscription settings (Settings &rarr; <em>Your Name</em> &rarr; Subscriptions).</li>
-        <li>If a subscription expires, premium-only features revert to the free tier.</li>
-        <li>A "Restore Purchases" option is available in the app's settings for eligible subscriptions.</li>
+        <li>There are no subscriptions and no in-app purchases.</li>
+        <li>There are no premium tiers, paywalls, or upgrade flows.</li>
+        <li>No credit card is required to use any feature of the app.</li>
     </ul>
-    <p>Subscription pricing is displayed in local currency within the app and is set in the App Store. Prices may vary by region and are subject to change with notice.</p>
-
-    <div class="callout callout-success">
-        <div class="callout-label">✅ Free Tier</div>
-        The free version of CuffChat lets you read messages, search chats, view photos, and use complications. No credit card or subscription is required for the free tier.
-    </div>
+    <p>Every feature is included at no cost: reading and sending messages, searching chats, viewing and sending photos, voice messages, reactions, sharing contacts and locations, watching videos in the app, and the unread count complications.</p>
 
     <h3 id="acceptable-use">13. Acceptable Use</h3>
     <p>You agree <strong>not</strong> to use CuffChat to:</p>
@@ -881,7 +873,7 @@
         <li>Attempt to interfere with, disrupt, or gain unauthorized access to Telegram's services, Apple's platforms, or CuffChat's infrastructure.</li>
         <li>Use automated tools, bots, or scripts to access Telegram's services in violation of Telegram's terms.</li>
     </ul>
-    <p>CuffChat reserves the right to suspend or terminate your access to premium features if you violate these terms, without prejudice to any other rights or remedies available.</p>
+    <p>CuffChat reserves the right to suspend or terminate your access to CuffChat if you violate these terms, without prejudice to any other rights or remedies available.</p>
 
     <h3 id="availability">14. Availability</h3>
     <p>CuffChat depends on:</p>
@@ -902,7 +894,6 @@
         <li>The results obtained from using the app will be accurate or reliable.</li>
         <li>The quality of any messages, content, or information transmitted through CuffChat will meet your expectations.</li>
     </ul>
-    <p>CuffChat's liability for any claim arising from your use of the app shall not exceed the amount you have paid for premium subscriptions in the twelve (12) months preceding the claim, if any.</p>
 
     <h3 id="changes-terms">16. Changes to These Terms</h3>
     <p>We may update these Terms of Use from time to time. Material changes will be communicated by updating the "Last updated" date above and, where required by applicable law, through the app. Your continued use of CuffChat after any changes constitutes acceptance of the updated terms.</p>
